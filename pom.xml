@@ -54,6 +54,30 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <!-- 两个版本最最好保持一致，以免产生不必要的问题 -->
+      <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-jaxrs</artifactId>
+        <version>3.13.0.Final</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-client</artifactId>
+        <version>3.13.0.Final</version>
+      </dependency>
+      <!-- jetty依赖包 -->
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-server</artifactId>
+        <version>9.4.31.v20200723</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-servlet</artifactId>
+        <version>9.4.31.v20200723</version>
+      </dependency>
+
+
     </dependencies>
   </dependencyManagement>
 
