@@ -7,7 +7,7 @@ import org.apache.dubbo.config.annotation.DubboService;
  * @Description TODO
  * @Date 2020/8/7 16:15
  **/
-@DubboService(registry = {"shanghai"})
+@DubboService(registry = {"shanghai"},protocol = {"dubbo","rest"})
 public class SayServiceImpl implements ISayService {
     @Override
     public String sayHello(String msg) {
